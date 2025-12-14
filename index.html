@@ -1,58 +1,111 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>PS4 - PS5 Exploit Host by Ali Osman</title>
+<title>PS4 - PS5 Exploit Host | Ali Osman</title>
 <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        background-color: #0d0d0d;
+        color: #00ffe7;
+        font-family: "Tahoma", sans-serif;
+        text-align: center;
+    }
+    h1, h2 {
+        text-shadow: 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+    }
+    .info {
+        margin-top: 40px;
+        font-size: 22px;
+        color: #f31414;
+        text-shadow: 0 0 8px #f31414;
+    }
+    a {
+        color: #00ffe7;
+        text-decoration: none;
+    }
+    hr {
+        border: 1px solid #00ffe7;
+        box-shadow: 0 0 10px #00ffe7;
+    }
+    .btn {
+        background-color: #111;
+        color: #00ffe7;
+        border: 1px solid #00ffe7;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        text-shadow: 0 0 5px #00ffe7;
+    }
+    .btn:hover {
+        background-color: #00ffe7;
+        color: #111;
+        text-shadow: none;
+    }
+</style>
 </head>
 <body>
 <h1 id="msgs">PS4 - PS5 Exploit Host by Ali Osman</h1>
 <hr>
 <br>
+
 <div id="menu">
 <h1 style="font-size: 18px;color: yellow;">Select Your Firmware</h1>
-<a href="505goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 5.05 FW GoldHEN </button></a>
-<a href="505/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW Host v2.0'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 5.05 FW v2.0 </button></a>
+
+<!-- أزرار الفيرموير -->
+<a href="505goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">5.05 FW GoldHEN</button></a>
+<a href="505/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 5.05 FW Host v2.0'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">5.05 FW v2.0</button></a>
 <br>
-<a href="672goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 6.72 FW GoldHEN </button></a>
-<a href="672/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW Host v3.0'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 6.72 FW v3.0 </button></a>
-<a href="702/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.02 FW Host v1.4'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 7.02 FW v1.4 </button></a>
-<a href="75x/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.50 - 7.55 FW Host v1.5'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 7.50 - 7.55 FW v1.5 </button></a>
+<a href="672goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">6.72 FW GoldHEN</button></a>
+<a href="672/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 6.72 FW Host v3.0'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">6.72 FW v3.0</button></a>
+<a href="702/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.02 FW Host v1.4'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">7.02 FW v1.4</button></a>
+<a href="75x/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 7.50 - 7.55 FW Host v1.5'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">7.50 - 7.55 FW v1.5</button></a>
 <br>
-<a href="900goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW GoldHEN Host - FontFaceSet Webkit'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 9.00 FW GoldHEN </button></a>
-<a href="900v2/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v2.8 with Manual Exploitation - FontFaceSet Webkit'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 9.00 FW v2.8 | Manual </button></a>
-<a href="900v3/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v3.0 with Automatic Exploitation - FontFaceSet Webkit'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 9.00 FW v3.0 | Auto </button></a>
+<a href="900goldhen/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW GoldHEN Host'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">9.00 FW GoldHEN</button></a>
+<a href="900v2/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v2.8 Manual'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">9.00 FW v2.8 | Manual</button></a>
+<a href="900v3/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW Host v3.0 Auto'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">9.00 FW v3.0 | Auto</button></a>
 <br>
-<a href="900goldhen_psfree/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW GoldHEN Host - Psfree Webkit'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> 9.00 GoldHEN | Psfree </button></a>
+<a href="900goldhen_psfree/index.html"><button class="btn" onmouseover="msgs.innerHTML='PS4 9.00 FW GoldHEN Host - Psfree'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">9.00 GoldHEN | Psfree</button></a>
 <br>
-<a href="restore/index.html"><button class="btn" onmouseover="msgs.innerHTML='Restore a Host to User&#8217;s Guide without using DNS'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> Restore Host </button></a>
-<a href="nobd/index.html"><button class="btn btn-alt" onmouseover="msgs.innerHTML='A payload to update to 9.00 FW on consoles with a broken Blu-ray drive'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> Mira NoBD </button></a>
+<a href="restore/index.html"><button class="btn" onmouseover="msgs.innerHTML='Restore Host to User Guide'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">Restore Host</button></a>
+<a href="nobd/index.html"><button class="btn" onmouseover="msgs.innerHTML='Payload for consoles with broken Blu-ray drive'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">Mira NoBD</button></a>
 <br>
-<a href="https://ps5jb-umtx2.netlify.app/"><button class="btn btn-ps5" onmouseover="msgs.innerHTML='PS5 UMTX2 1.xx - 5.xx FW Host v1.0 by idlesauce'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'"> PS5 UMTX2 v1.0 </button></a>
+<a href="https://ps5jb-umtx2.netlify.app/"><button class="btn" onmouseover="msgs.innerHTML='PS5 UMTX2 FW Host v1.0'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'">PS5 UMTX2 v1.0</button></a>
 <br>
-<button class="btn btn-onln" onmouseover="msgs.innerHTML='If you like my work you can support me with a donation.'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'" onclick="donations()" style="margin-top: 75px;margin-bottom: 15px;width: 468px;"> For Donations (Only in Cryptocurrencies) </button>
-<br>
-<h1>Designed by:<a href="#" style="color: #f31414;margin-left: 10px;margin-right: 10px;">Ali Osman</a> A special thanks to all the devs on the scene.</h1>
+
+<!-- زر التبرع -->
+<button class="btn" onmouseover="msgs.innerHTML='If you like my work you can support me.'" onmouseout="msgs.innerHTML='PS4 - PS5 Exploit Host by Ali Osman'" onclick="donations()" style="margin-top: 75px;margin-bottom: 15px;width: 468px;">For Donations (Crypto)</button>
+
+<h1>Designed by:<a href="#" style="color: #f31414;margin-left: 10px;margin-right: 10px;">Ali Osman</a> | Special thanks to all devs.</h1>
 </div>
-<div id="crypto">
+
+<!-- قسم التبرعات -->
+<div id="crypto" style="display:none;">
 <h1 style="font-size: 18px;color: yellow;">Donate with Bitcoin (BTC):</h1>
-<img src="btc.jpg" width="150" height="150">
-<br>
+<img src="btc.jpg" width="150" height="150"><br>
 <h1 style="font-size: 18px;">bc1q6cnsykmvem6zgw8wag3ygee0jkhtxj6rkp2nrm</h1>
 <br>
 <h1 style="font-size: 18px;color: yellow;">Donate with Ethereum (ETH):</h1>
-<img src="eth.jpg" width="150" height="150">
+<img src="eth.jpg" width="150" height="150"><br>
 <h1 style="font-size: 18px;">0x7Ae1825ddE196925dB8B7832F436cA0eAeaF932c</h1>
-<button class="btn" onclick="load_menu()"> Return </button>
+<button class="btn" onclick="load_menu()">Return</button>
 </div>
+
+<!-- معلوماتك -->
+<div class="info">
+    <p>📍 سوريا – الحسكة</p>
+    <p>📞 0938372794</p>
+    <p>👤 Ali Osman</p>
+</div>
+
 <script>
 function donations(){
-document.getElementById("crypto").style.display = "block";
-document.getElementById("menu").style.display = "none";
+    document.getElementById("crypto").style.display = "block";
+    document.getElementById("menu").style.display = "none";
 }
-
 function load_menu(){
-document.getElementById("menu").style.display = "block";
-document.getElementById("crypto").style.display = "none";
+    document.getElementById("menu").style.display = "block";
+    document.getElementById("crypto").style.display = "none";
 }
 </script>
 </body>
